@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Test.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Test.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Test.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Test.Infrastructure/Test.Infrastructure.csproj",
+      "msbuildProject": "../Test.Infrastructure/Test.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Test.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/felipe/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/felipe/Documents/GitHub/Test-laboral/Test.Domain/Test.Domain.csproj",
+      "projectName": "Test.Domain",
+      "projectPath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Domain/Test.Domain.csproj",
+      "packagesPath": "/home/felipe/.nuget/packages/",
+      "outputPath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/felipe/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/Test.Infrastructure.csproj": {
+              "projectPath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/Test.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.133/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

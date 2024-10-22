@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Business/" />
+    <Folder Include="DTOs/" />
+    <Folder Include="ServiceInterfaces/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.Domain\Test.Domain.csproj" />
+    <ProjectReference Include="..\Test.Infrastructure\Test.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

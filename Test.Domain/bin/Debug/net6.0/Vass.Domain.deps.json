@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Vass.Domain/1.0.0": {
+        "dependencies": {
+          "Vass.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Vass.Domain.dll": {}
+        }
+      },
+      "Vass.Infrastructure/1.0.0": {
+        "runtime": {
+          "Vass.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vass.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vass.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

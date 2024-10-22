@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipe/Documents/GitHub/DDD/Vass.Application/Vass.Application.csproj": {}
+  },
+  "projects": {
+    "/home/felipe/Documents/GitHub/DDD/Vass.Application/Vass.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/Documents/GitHub/DDD/Vass.Application/Vass.Application.csproj",
+        "projectName": "Vass.Application",
+        "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Application/Vass.Application.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/Documents/GitHub/DDD/Vass.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/felipe/Documents/GitHub/DDD/Vass.Domain/Vass.Domain.csproj": {
+                "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Domain/Vass.Domain.csproj"
+              },
+              "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj": {
+                "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.133/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/felipe/Documents/GitHub/DDD/Vass.Domain/Vass.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/Documents/GitHub/DDD/Vass.Domain/Vass.Domain.csproj",
+        "projectName": "Vass.Domain",
+        "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Domain/Vass.Domain.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/Documents/GitHub/DDD/Vass.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj": {
+                "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.133/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj",
+        "projectName": "Vass.Infrastructure",
+        "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/Vass.Infrastructure.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.133/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

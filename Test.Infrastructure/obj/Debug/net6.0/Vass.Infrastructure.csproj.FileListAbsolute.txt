@@ -1,0 +1,12 @@
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/bin/Debug/net6.0/Vass.Infrastructure.deps.json
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/bin/Debug/net6.0/Vass.Infrastructure.dll
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/bin/Debug/net6.0/ref/Vass.Infrastructure.dll
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/bin/Debug/net6.0/Vass.Infrastructure.pdb
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.csproj.AssemblyReference.cache
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.AssemblyInfoInputs.cache
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.AssemblyInfo.cs
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.csproj.CoreCompileInputs.cache
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.dll
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/ref/Vass.Infrastructure.dll
+/home/felipe/Documents/GitHub/DDD/Vass.Infrastructure/obj/Debug/net6.0/Vass.Infrastructure.pdb
