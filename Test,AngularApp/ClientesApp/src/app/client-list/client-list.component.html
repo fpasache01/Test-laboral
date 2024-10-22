@@ -1,0 +1,23 @@
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>RUT</th>
+        <th>Email</th>
+        <th>Country</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let client of clients">
+        <td>{{ client.idClient }}</td>
+        <td>{{ client.name }}</td>
+        <td>{{ client.rut }}</td>
+        <td>{{ client.email }}</td>
+        <td>{{ client.country }}</td>
+        <td>{{ client.phone | phoneFormat }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

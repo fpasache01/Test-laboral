@@ -9,6 +9,7 @@ namespace Namespace
     /// </summary>
     public interface IClientRepository
     {
-        Task<List<Client>> GetAllClients();
+        Task<List<Client>> GetAllClients(int pageSize, int pageNumber);
+        Task<List<Client>> GetAllClientsBySp(int pageSize,int pageNumber);
     }
 }

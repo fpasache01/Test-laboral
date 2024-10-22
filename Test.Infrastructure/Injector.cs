@@ -13,7 +13,7 @@ namespace Vass.Infrastructure
         public static IServiceCollection Inject(this IServiceCollection services)
         {
             services.AddSingleton<ITestRepository,TestRepository>();
-             services.AddSingleton<IClientRepository,ClientRepository>();
+             services.AddScoped<IClientRepository,ClientRepository>();
             return services;
         }
     }

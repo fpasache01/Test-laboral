@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Test.Infrastructure.Context;
+
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 // Add services to the container.
 
@@ -7,6 +10,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 Vass.Infrastructure.Injector.Inject(builder.Services);
 Vass.Domain.Injector.Inject(builder.Services);
+
+builder.Services.AddDbContext<TESTContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 
