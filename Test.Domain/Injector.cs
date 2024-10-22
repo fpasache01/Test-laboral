@@ -14,8 +14,6 @@ namespace Vass.Domain
         public static IServiceCollection Inject(this IServiceCollection services)
         {
             services.AddSingleton<ITestService, TestService>();
-            services.AddSingleton<IHandleIdDeviceService, HandheldDeviceService>();
-            services.AddSingleton<IFiscalizationService, FiscalizationService>();
             return services;
         }
     }

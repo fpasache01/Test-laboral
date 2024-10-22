@@ -10,3 +10,5 @@
 /home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/obj/Debug/net6.0/Test.Infrastructure.dll
 /home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/obj/Debug/net6.0/ref/Test.Infrastructure.dll
 /home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/obj/Debug/net6.0/Test.Infrastructure.pdb
+/home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/bin/Debug/net6.0/Test.Infrastructure.runtimeconfig.json
+/home/felipe/Documents/GitHub/Test-laboral/Test.Infrastructure/obj/Debug/net6.0/Test.Infrastructure.genruntimeconfig.cache

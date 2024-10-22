@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AQDgdVDaALoaityMJo2PnpRGS/PAsi7uZ6xp0cnqNP/UZ1j17vymzjha34I2xBdK3vOzaJQ/jWrU7SrXdVLw4A==",
+  "dgSpecHash": "GrDgdJM5TB0UbaxKWiDKSoNEW3XHjlHgucYNCPJev5XXb+jGny4wQBxzDGUpvmurhxrrlXP1SCJtK12xXbQNxg==",
   "success": true,
-  "projectFilePath": "/home/felipe/Documents/GitHub/DDD/Vass.Tests/Vass.Tests.csproj",
+  "projectFilePath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Tests/Test.Tests.csproj",
   "expectedPackageFiles": [
     "/home/felipe/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

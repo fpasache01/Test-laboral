@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
+using Namespace;
 
 namespace Vass.Infrastructure
 {
@@ -12,6 +13,7 @@ namespace Vass.Infrastructure
         public static IServiceCollection Inject(this IServiceCollection services)
         {
             services.AddSingleton<ITestRepository,TestRepository>();
+             services.AddSingleton<IClientRepository,ClientRepository>();
             return services;
         }
     }

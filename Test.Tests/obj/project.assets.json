@@ -3860,11 +3860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/felipe/Documents/GitHub/DDD/Vass.Tests/Vass.Tests.csproj",
-      "projectName": "Vass.Tests",
-      "projectPath": "/home/felipe/Documents/GitHub/DDD/Vass.Tests/Vass.Tests.csproj",
+      "projectUniqueName": "/home/felipe/Documents/GitHub/Test-laboral/Test.Tests/Test.Tests.csproj",
+      "projectName": "Test.Tests",
+      "projectPath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Tests/Test.Tests.csproj",
       "packagesPath": "/home/felipe/.nuget/packages/",
-      "outputPath": "/home/felipe/Documents/GitHub/DDD/Vass.Tests/obj/",
+      "outputPath": "/home/felipe/Documents/GitHub/Test-laboral/Test.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/felipe/.nuget/NuGet/NuGet.Config"
