@@ -9,5 +9,7 @@ namespace Test.Infrastructure.Context
         public string? Rut { get; set; }
         public string? Email { get; set; }
         public int IdClient { get; set; }
+        public string? Phone { get; set; }
+        public string? Country { get; set; }
     }
 }

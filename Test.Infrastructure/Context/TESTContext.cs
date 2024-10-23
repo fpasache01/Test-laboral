@@ -39,6 +39,11 @@ namespace Test.Infrastructure.Context
 
                 entity.Property(e => e.IdClient).HasColumnName("ID_CLIENT");
 
+                entity.Property(e => e.Country)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("COUNTRY");
+
                 entity.Property(e => e.Email)
                     .HasMaxLength(100)
                     .IsUnicode(false)
@@ -48,6 +53,11 @@ namespace Test.Infrastructure.Context
                     .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("NAME");
+
+                entity.Property(e => e.Phone)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("PHONE");
 
                 entity.Property(e => e.Rut)
                     .HasMaxLength(20)
